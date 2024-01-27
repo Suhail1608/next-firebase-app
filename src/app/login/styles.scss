@@ -1,0 +1,49 @@
+.login-content{
+
+    padding: 4rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    .login-left{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .img{
+            
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            
+        }
+        h2{
+            font-size: 2rem;
+            font-weight: 500;
+            width: 400px;
+        }
+        
+    }
+    .login-right{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        background-color: white;
+        padding: 30px;
+        width: 300px;
+        border-radius: 10px;
+        border: 1px solid black;
+        margin-top: 3rem;
+       .login-form{
+        
+        #heading{
+            font-weight: 600;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        .buttondiv{
+            width: 100%;
+            display: flex;
+            justify-content: right;
+        }
+       }
+    }
+}

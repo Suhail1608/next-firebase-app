@@ -1,0 +1,124 @@
+@import '@/app/variables.scss';
+.user-id-front{
+    min-height: 220px;
+    max-height: 220px;
+    overflow: hidden;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-bottom: 10px;
+    .user-image-content{
+        
+        display: flex;
+        justify-content: space-between;
+        .user-profile{
+            background-color: brown;
+            width: 75px;
+            height: fit-content;
+            border: 1px solid $primary;
+        }
+        .logo{
+            // background-color: purple;
+            width: 100%;
+           
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            padding-right: 20px; 
+        }
+    }
+    .user-id-info{
+        
+        display: flex;
+        flex-direction: column;
+        gap:4px;
+        ul{
+            
+          
+            list-style: none;
+            li{
+                display: flex;
+               
+                gap:8px;
+                padding: 4px;
+                label{
+                    display: flex;
+                }
+                .val{
+                    width: 90%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    white-space: wrap; 
+                   
+                   
+                }
+            }
+        }
+    }
+}
+.user-id-back{
+    overflow: hidden;
+    min-height: 220px;
+    max-height: 220px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+   justify-content: space-between;
+    gap:20px;
+    margin-bottom: 10px;
+    .user-image-content{
+        
+        display: flex;
+        justify-content: space-between;
+
+   
+        .logo{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .qr{
+                width: 100px;
+                height: auto;
+            }
+            
+        }
+    }
+    .user-id-info{
+        
+        display: flex;
+        flex-direction: column;
+        gap:8px;
+        ul{
+            
+          
+            list-style: none;
+            li{
+                display: flex;
+               
+                gap:8px;
+                padding: 8px;
+                label{
+                    display: flex;
+                    width: fit-content;
+                }
+                .val{
+                    width: fit-content;
+                    display: flex;
+                    flex-wrap: wrap;
+                    white-space: wrap; 
+                   
+                   
+                }
+            }
+        }
+    }
+}

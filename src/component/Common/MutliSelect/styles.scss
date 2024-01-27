@@ -1,0 +1,26 @@
+@import '@/app/variables.scss';
+.Select{
+
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    select{
+        position: relative;
+        outline: none;
+        border: none;
+        height: 40px;
+        padding: 10px 8px;
+        margin-right:10px;
+        width: 100%;
+     
+    }
+    .icon{
+        
+        border-radius: 30px;
+        position: absolute;
+        left: 10px;
+        width: 40px;
+        height: 40px;
+    }
+}

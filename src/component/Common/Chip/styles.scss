@@ -1,0 +1,16 @@
+@import '@/app/variables.scss';
+.chip{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    border-radius: 30px;
+    padding: 4px 8px;
+    margin:10 0px;
+    width: fit-content;
+    background-color: $chip;
+    .icon{
+        width: fit-content;
+        height: fit-content;
+        opacity: 70%;
+    }
+}

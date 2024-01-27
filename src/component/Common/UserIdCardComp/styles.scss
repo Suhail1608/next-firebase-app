@@ -1,0 +1,23 @@
+.user-id-container{
+   
+     padding: 20px;
+     width: fit-content;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+    
+     
+     .user-id-button{
+         margin-top: 40px;
+     }
+     .user-id-doc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+       
+        width: 100%;
+     }
+ }

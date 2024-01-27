@@ -1,0 +1,34 @@
+@import '@/app/variables.scss';
+.fInputMain{
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid black;
+    label{
+        display: flex;
+        padding: 0px 10px;
+        margin: 0%;
+        height: 100%;
+        background-color: $primary;
+        color: white;
+        gap: 8px;
+        align-items: center;
+    }
+    label:hover{
+        cursor: pointer;
+    }
+}
+.finput{
+    outline: none;
+    
+    font-size: 14px;
+    display: flex;
+    flex: 1;
+    padding: 12px 10px;
+ 
+   
+    
+}
+.finput::-webkit-file-upload-button{
+    display: none;
+}
